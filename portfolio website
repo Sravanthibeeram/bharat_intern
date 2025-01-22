@@ -1,0 +1,122 @@
+//html code
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sravanthi Beeram</h1>
+        <p>Undergraduate Student</p>
+    </header>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>
+           
+          I am Sravanthi Beeram. I am a person with a lot of enthusiasm to explore & learn new things. I am self-reliant, optimistic, highly organized & a people person. I believe that my enthusiasm and willingness to learn make me a strong candidate.“ I am Looking for opportunities to incorporate my skills.
+    </section>
+
+    <section class="accomplishments">
+        <h2>Education</h2>
+        <ul>
+            <li> Marri Laxman Reddy Institute Of Technology and Technology,B Tech, Computer Science & Engineering with specialization in AI & ML,2021-2025</li>
+            <li> Narayana Junior College, Intermediate, 2019-2021 </li>
+            <li> ST.Anthony's High School, SSC, 2019</li>
+            
+        </ul>
+    </section>
+    <section class="about">
+      <h2>Languages</h2>
+      <ul>
+        <li>English</li>
+        <li>Telugu</li>
+        <li>Hindi</li>
+        
+      </ul>
+    </section>
+    <section class="about">
+      <h2>Skills</h2>
+      <ul>
+        <li>Leadership</li>
+        <li>Multitasking</li>
+        <li>Hardworking</li>
+        <li>Adaptability</li>
+      </ul>
+    </section>
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Image Steganography</p>
+        </div>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Sravanthi Beeram</p>
+    </footer>
+</body>
+</html>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+/css code
+
+/* Reset some default styles for body and header tags */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.about, .accomplishments, .projects {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.accomplishments ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.projects .project {
+    margin-top: 20px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
